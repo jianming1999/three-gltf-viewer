@@ -11,15 +11,14 @@ Preview glTF 2.0 models in WebGL using three.js and a drag-and-drop interface.
 
 ## Quickstart
 
-### NPM CONFIG
+### INSTALL
 ```
-npm config set registry https://registry.npm.taobao.org/
+ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ ELECTRON_CUSTOM_DIR="{{ version }}" npm install
 ```
 
 ### Web
 
 ```
-ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ ELECTRON_CUSTOM_DIR='{{ version }}' npm install
 npm run dev
 ```
 
